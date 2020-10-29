@@ -14,7 +14,11 @@ class Post
   end
   
   def author_name
-    
+    if self.title == nil
+      nil
+    else
+      self.title = @author.name
+    end
     
   end
   
