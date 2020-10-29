@@ -23,7 +23,7 @@ class Artist
   end
   
   def add_song_by_name(song_name)
-    song_name = Song.name
+    song_name = Song.initialize
     p song_name
   end
 
