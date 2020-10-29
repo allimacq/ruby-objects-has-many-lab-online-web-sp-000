@@ -19,7 +19,6 @@ class Post
     else
       self.title = @author.name
     end
-    
   end
   
 end
