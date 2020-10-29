@@ -16,5 +16,7 @@ class Author
     @@posts = Post.all
   end
     
+  def add_post(post_title)
+    
   
 end
