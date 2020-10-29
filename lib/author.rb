@@ -20,18 +20,13 @@ class Author
     post.author = self
   end
   
-  
-  #def self.song_count
-   # @@songs.count
-  #end
-  
-  
   def add_post_by_title(post_title)
     post_title = Post.new(post_title)
     post_title.author = self
   end
     
-    
-    
+  def post.count
+    @@posts.count
+  end
   
 end
