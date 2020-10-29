@@ -10,6 +10,7 @@ class Author
   
   def new
     @name
+    @@posts << self
   end
   
   def posts
